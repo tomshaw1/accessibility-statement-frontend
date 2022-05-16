@@ -1,0 +1,26 @@
+serviceName: Design resources for HMRC serviceHeader
+Name: Design resources for HMRC 
+serviceDescription: | 
+  Guidance and documentation for designing and building HMRC services. 
+serviceDomain: www.design.tax.service.gov.uk 
+serviceUrl: / 
+contactFrontendServiceId: designresources 
+complianceStatus: partial 
+accessibilityProblems: 
+  - on the Service Timeout page, the examples loop continuously and run in parallel which is distracting and confusing. 
+  - on the Patterns for the HMRC GOV.UK team pages, content in tables do not reflow, causing the url and other content in the table to be obscured. 
+milestones: 
+  - description: | 
+      "The service timeout examples loop continuously and run in parallel which is distracting and confusing. This doesn't meet WCAG 2.1 success criteria 2.2.4 (Interruptions)" 
+    date: 2022-05-27 
+  - description: | 
+      "Due to a long url, the contents of the table does not reflow, causing the url and other content in the table to be obscured. This doesn't meet WCAG 2.1 success criteria 1.4.10 (Reflow)" 
+    date: 2023-05-27 
+serviceLastTestedDate: 2022-05-09 
+statementVisibility: public 
+statementCreatedDate: 2022-05-16 
+statementLastUpdatedDate: 2022-05-16 
+businessArea: Chief Digital & Information Officer (CDIO) 
+ddc: DDC Newcastle 
+liveOrClassic: Live Services - Newcastle 
+typeOfService: Live services
